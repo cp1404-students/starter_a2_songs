@@ -14,9 +14,9 @@ def run_tests():
 
     # Test loading songs
     print("Test loading songs:")
-    song_collection.load_songs('songs.csv')
+    song_collection.load_songs('songs.json')
     print(song_collection)
-    assert song_collection.songs  # assuming CSV file is non-empty, non-empty list is considered True
+    assert song_collection.songs  # assuming file is non-empty, non-empty list is considered True
 
     # Test adding a new Song with values
     print("Test adding new song:")
@@ -29,7 +29,7 @@ def run_tests():
     print(song_collection)
     # TODO: Add more sorting tests
 
-    # TODO: Test saving songs (check CSV file manually to see results)
+    # TODO: Test saving songs (check file manually to see results)
 
     # TODO: Add more tests, as appropriate, for each method
 

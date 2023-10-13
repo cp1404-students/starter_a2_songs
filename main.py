@@ -1,18 +1,18 @@
 """
 Name:
-Date:
+Date Started:
 Brief Project Description:
 GitHub URL:
 """
-# TODO: Create your main program in this file, using the SongsToLearnApp class
+# TODO: Create your main program in this file, using the SongListApp class
 
 from kivy.app import App
 
 
-class SongsToLearnApp(App):
+class SongListApp(App):
     """..."""
     pass
 
 
 if __name__ == '__main__':
-    SongsToLearnApp().run()
+    SongListApp().run()
