@@ -12,7 +12,7 @@ def run_tests():
     assert default_song.artist == ""
     assert default_song.title == ""
     assert default_song.year == 0
-    assert not default_song.is_learned
+    assert default_song.is_learned is False
 
     # Test initial-value song
     initial_song = Song("My Happiness", "Powderfinger", 1996, True)
